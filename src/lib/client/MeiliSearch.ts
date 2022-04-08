@@ -1,7 +1,7 @@
-import { instantMeiliSearch } from '@meilisearch/instant-meilisearch'
+import { instantMeiliSearch } from '@meilisearch/instant-meilisearch';
 
 export const searchClient = instantMeiliSearch(
-    // @ts-ignore
-    process.env.NEXT_PUBLIC_MEILISEARCH_HOST, // Host
-    process.env.NEXT_PUBLIC_MEILISEARCH_PUBLIC_KEY // API key
+  // @ts-ignore
+  'http://127.0.0.1:7700', // Host
+  'BmMt8ajl64b9a504e7fa0c2abffca25e7e6328454e6152bfe1a1b6c24408c83f534f45c3' // API key
 );
