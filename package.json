@@ -1,0 +1,37 @@
+{
+  "name": "meili-next-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "node src/lib/server/seed.js"
+  },
+  "dependencies": {
+    "@mantine/core": "^4.1.2",
+    "@mantine/form": "^4.1.2",
+    "@mantine/hooks": "^4.1.2",
+    "@mantine/modals": "^4.1.2",
+    "@mantine/next": "^4.1.2",
+    "@mantine/notifications": "^4.1.2",
+    "@meilisearch/instant-meilisearch": "^0.7.0",
+    "dotenv": "^16.0.0",
+    "meilisearch": "^0.25.0",
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-instantsearch-dom": "^6.23.3",
+    "tabler-icons-react": "^1.44.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.23",
+    "@types/react": "17.0.43",
+    "@types/react-dom": "17.0.14",
+    "@types/react-instantsearch-dom": "^6.12.2",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "typescript": "4.6.3"
+  }
+}
